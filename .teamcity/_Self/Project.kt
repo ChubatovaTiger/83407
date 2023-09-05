@@ -3,9 +3,10 @@ package _Self
 import _Self.buildTypes.*
 import jetbrains.buildServer.configs.kotlin.*
 import jetbrains.buildServer.configs.kotlin.Project
+import java.util.concurrent.TimeUnit
 
 object Project : Project({
-
+    TimeUnit.SECONDS.sleep(10L)
     buildType(B19)
     buildType(B9)
     buildType(B8)
