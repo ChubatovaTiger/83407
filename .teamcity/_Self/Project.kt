@@ -6,7 +6,7 @@ import jetbrains.buildServer.configs.kotlin.Project
 import java.util.concurrent.TimeUnit
 
 object Project : Project({
-    TimeUnit.SECONDS.sleep(10L)
+    TimeUnit.SECONDS.sleep(30L)
     buildType(B19)
     buildType(B9)
     buildType(B8)
