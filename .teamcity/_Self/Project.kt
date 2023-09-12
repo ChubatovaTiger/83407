@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit
 
 object Project : Project({
     TimeUnit.SECONDS.sleep(10L)
-    throw Exception("Hit!")
+    throw Exception("Hit2!")
     buildType(B19)
     buildType(B9)
     buildType(B8)
