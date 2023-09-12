@@ -18,6 +18,7 @@ object B18 : BuildType({
             }
             branchFilter = ""
             triggerBuild = always()
+            withPendingChangesOnly = false
         }
     }
 })
